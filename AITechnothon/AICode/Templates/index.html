@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enter your Admission Details </title>
+<style>
+   /* CSS styles */
+   body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+   }
+
+   h1 {
+     color: #333;
+     margin-top: 50px;
+   }
+
+   #input-bar {
+     margin-top: 20px;
+   }
+
+   input[type="text"] {
+     padding: 10px;
+     width: 300px;
+     border: 1px solid #999;
+   }
+
+   #submit-btn {
+     margin-top: 20px;
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+   }
+
+   #submit-btn:hover {
+     background-color: #0056b3;
+   }
+</style>
+</head>
+<body>
+<h1>Enter Your Admission Details:</h1>
+
+<form action="http://localhost:5000">
+<input type="text" id="input-bar" placeholder="Enter your ID">
+<br>
+<input type="submit" value="Submit" id="submit-btn">
+</form>
+</body>
+</html>
