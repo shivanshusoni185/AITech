@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+    <h1>Student Details</h1>
+    {% if student %}
+        <h2>{{ student.Name }}</h2>
+        <p>Date of Birth: {{ student.DateOfBirth }}</p>
+        <p>Gender: {{ student.Gender }}</p>
+        <p>Address: {{ student.Address }}</p>
+        <p>Admission Date: {{ student.AdmissionDate }}</p>
+    {% else %}
+        <p>No student details found.</p>
+    {% endif %}
+</body>
+</html>
